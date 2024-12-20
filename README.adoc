@@ -1,2 +1,15 @@
-# mae_poly_loss
-MAE polynomial loss functions 
+= mae_poly_loss
+
+MAE polynomial loss functions
+
+== Usage
+
+Set `PYTHONPATH` to this directory
+
+Specify hyperparameters:
+
+`custom_loss_module`::
+`mae_poly_loss`, the string module name which will be loaded by `importlib`.
+
+`alpha`::
+The float α parameter for the loss function, e.g., 0, 1, 2.
